@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}Rule Engine Result{% endblock %}
+
+{% block content %}
+<div class="container title-container">
+    <h1>Rule Engine Result</h1>
+</div>
+<div class="container content-container">
+    {% if alerts %}
+    <center><h3>There is an alert, check temperature, humidity and vibration of your cantine.</h3></center>
+    {% else %}
+    <center><h3>There isn't alert.</h3></center>
+    {% endif %}
+    <a href="{{url_for('homepage')}}">Home</a>
+</div>
+
+{% endblock %}

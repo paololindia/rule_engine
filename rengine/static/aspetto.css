@@ -1,0 +1,17 @@
+html, body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title-container {
+    background-color: lightskyblue;
+    border: 1px solid #fff;
+}
+
+.content-container {
+    max-width: 950px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 360px;
+    padding: 0px;
+}
+
